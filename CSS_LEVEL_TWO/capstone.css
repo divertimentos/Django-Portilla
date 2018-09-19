@@ -1,0 +1,35 @@
+body{
+    /* background-color: #001435 */
+    background-color: darkslategray;
+    color: whitesmoke;
+    /* text-align: justify;
+    text-align-last: center; */
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+div{
+    background-color: #001435
+}
+
+.top{
+    text-align: justify;
+    text-align-last: center;
+}
+
+.content{
+    text-align: justify;
+    text-align-last: center;
+}
+
+    
+/* Form area */
+
+.name{
+    margin: 20px auto;
+    width: auto;
+    
+}
