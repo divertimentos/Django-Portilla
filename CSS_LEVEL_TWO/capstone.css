@@ -1,35 +1,57 @@
-body{
-    /* background-color: #001435 */
-    background-color: darkslategray;
-    color: whitesmoke;
-    /* text-align: justify;
-    text-align-last: center; */
-    font-family: 'Raleway', sans-serif;
-    width: 90%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     margin: auto;
-
 }
 
-
-div{
-    background-color: #001435
-}
-
-.top{
-    text-align: justify;
-    text-align-last: center;
-}
-
-.content{
-    text-align: justify;
-    text-align-last: center;
-}
-
-    
-/* Form area */
-
-.name{
-    margin: 20px auto;
-    width: auto;
+.welcome {
+    text-align: center; 
+    background-color: #001435;
+    border: 1px solid whitesmoke;
+    margin: 10px 0;
+    width: 50%;
+    padding: 5px;
     
 }
+
+body {
+    color: whitesmoke;
+    background-color: darkslategray;
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    text-align: center; 
+    background-color: #001435;
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+/* FORM AREA */
+
+.signup {
+    background-color: #001435;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.form input[type='text'], input[type='email'] {
+    background-color: whitesmoke;
+    border: 1px solid #001435;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+
