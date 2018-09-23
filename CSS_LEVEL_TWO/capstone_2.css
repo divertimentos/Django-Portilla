@@ -1,0 +1,33 @@
+body {
+    background: #001435;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.content {
+    background: whitesmoke;
+    margin: 20px;
+    padding: 0px 20px 100px 20px;
+}
+
+header {
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+    margin: 20px;
+    padding-top: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 0%;
+}
+
+.signup {
+    box-sizing: border-box;
+    padding-left: 50%;
+    padding-right: 50%;
+
+    width: auto;
+
+}
