@@ -1,11 +1,12 @@
 body {
-    background: #001435;
+    background: #00a8aa;
     font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
 
 }
 
 .content {
-    background: whitesmoke;
+    background: #023356;
     margin: 20px;
     padding: 0px 20px 100px 20px;
 }
@@ -23,11 +24,30 @@ article {
     padding-bottom: 0%;
 }
 
-.signup {
-    box-sizing: border-box;
-    padding-left: 50%;
-    padding-right: 50%;
+#signup {
+    /* Segredo p/ alinhar o form verticalmente: */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
 
-    width: auto;
+label {
+    padding-top: 25px;
+}
 
+/* #name, #lastname, #email {
+    border: 5px solid red;
+} */
+
+.form input[type=text], input[type=email] {
+    border: 1px solid #001435;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form input[type=submit] {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #001435;
 }
