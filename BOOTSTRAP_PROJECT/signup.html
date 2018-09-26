@@ -9,6 +9,7 @@
     </head>
 
     <body>
+
         <!-- Barra de navegação: -->
         <nav class="navbar navbar-default navbar-inverse">
             <div>
@@ -27,6 +28,7 @@
                 </div>
 
                 <div class="collapse navbar-collapse" id="br-example-navbar-collapse-1">
+
                     <!-- barra de navegação: -->
                     <ul class="nav navbar-nav">
                         <li><a href="project.html">Landing Page</a></li>
@@ -40,35 +42,38 @@
         </nav>
 
         <!-- Jumbotron -->
-
         <div class="container">
             <div class="jumbotron">
                 <h1>Log In</h1>
-                <h3>Enter your e-mail and password below to log in to Coffee Lover</h3>
+                <p>Enter your e-mail and password below to log in to Coffee Lover</p>
             </div>
         </div>
 
         <!-- Form -->
-
         <div class="container">
             <form>
+
                 <!-- e-mail -->
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
 
                 </div>
+
                 <!-- password -->
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" placeholder="Password" required>
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>
                 </div>
+
                 <!-- checkbox -->
                 <div class="checkbox">
-                    <label>
-                        <input type="checkbox"> Keep me logged in
-                    </label>
+                    <label for="usercheck">
+                        <input type="checkbox" name="usercheck">
+                        Keep me logged in</label>
                 </div>
+
+                <!-- Submit button -->
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
         </div>
