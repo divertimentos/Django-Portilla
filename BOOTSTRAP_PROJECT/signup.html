@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Signup page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <!-- Barra de navegação: -->
+        <nav class="navbar navbar-default navbar-inverse">
+            <div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+
+                        <!-- hamburguer -->
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">Welcome</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="br-example-navbar-collapse-1">
+                    <!-- barra de navegação: -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Landing Page</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropbown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Log In</h1>
+                <h3>Enter your e-mail and password below to log in to Coffee Lover</h3>
+            </div>
+        </div>
+
+        <!-- Form -->
+
+        <div class="container">
+            <form>
+                <!-- e-mail -->
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+
+                </div>
+                <!-- password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <!-- checkbox -->
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Keep me logged in
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </body>
+
+</html>
