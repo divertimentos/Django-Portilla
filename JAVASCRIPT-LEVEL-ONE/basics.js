@@ -66,7 +66,7 @@ null;
 
 // Variables
 
-var bankAccout = 100;
+var bankAccount = 100;
 var deposit = 50;
 var total = bankAccount + deposit;
 total;
