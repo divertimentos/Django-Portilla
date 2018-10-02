@@ -41,8 +41,8 @@ console.log("Method one: while loop.")
 var counter = 1;
 
 while (counter <= 25) {
-    if (counter % 2 != 0) {
-        console.log(counter)
+    if (counter % 2 !== 0) {
+        console.log(counter);
     }
     counter++
 }
@@ -52,7 +52,7 @@ console.log("Method 2: for loop.")
 // For Loop
 
 for (var i = 0; i <= 25; i++) {
-    if (i % 2 != 0) {
-        console.log(i)
+    if (i % 2 !== 0) {
+        console.log(i);
     }
 }
