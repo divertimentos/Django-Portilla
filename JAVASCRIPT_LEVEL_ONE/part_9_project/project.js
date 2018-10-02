@@ -6,10 +6,10 @@ var height = prompt("How tall are you? (in centimeters)")
 var petName = prompt("What's your pet's name?")
 
 // Main boolean test:
-spy = false;
+spy = null;
 
 // name and lastName:
-if (firstName[0] == lastName[0]) { // Se a primeira letra de nome e sobrenome forem iguais
+if (firstName[0] === lastName[0]) { // Se a primeira letra de nome e sobrenome forem iguais
     spy = true;
 } else {
     spy = false;
