@@ -9,28 +9,28 @@ var petName = prompt("What's your pet's name?")
 spy = false;
 
 // name and lastName:
-if (firstName[0] == lastName[0]) {  // Se a primeira letra de nome e sobrenome forem iguais
+if (firstName[0] == lastName[0]) { // Se a primeira letra de nome e sobrenome forem iguais
     spy = true;
 } else {
     spy = false;
 }
 
 // age:
-if (age > 20 && age < 30) {  // se a idade estiver entre 21 e 29
+if (age > 20 && age < 30) { // se a idade estiver entre 21 e 29
     spy = true;
 } else {
     spy = false;
 }
 
 // weight:
-if (weight >= 170) {  // se a altura for maior que 169 centímetros
-    spy = true;    
+if (weight >= 170) { // se a altura for maior que 169 centímetros
+    spy = true;
 } else {
     spy = false;
 }
 
 // petName:
-if (petName.charAt(petName.length -1) === "y") {  // se a última letra do petName for igual a "y"
+if (petName.charAt(petName.length - 1) === "y") { // se a última letra do petName for igual a "y"
     spy = true;
 } else {
     spy = false;
