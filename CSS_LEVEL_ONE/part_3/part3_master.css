@@ -1,0 +1,32 @@
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+#singledout{
+    color: darkolivegreen;
+    text-decoration: line-through;
+}
+
+/* l*{
+    color: lightslategrey;
+} */
+
+h3 + ul{
+    border-color: cornflowerblue;
+    border-width: 3px;
+    border-style: solid;
+}
+
+li a{
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+li a[href="https://www.python.org/"]{
+    color:green;
+    border: thin;
+}

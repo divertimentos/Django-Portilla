@@ -1,0 +1,19 @@
+body{
+    background-image: url("squares.jpg");
+}
+
+div{
+    background-color: teal;
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+}
+
+p{
+    color: lightgray;
+}
+
+span{
+    /* background: red; */
+    color: violet;
+}
