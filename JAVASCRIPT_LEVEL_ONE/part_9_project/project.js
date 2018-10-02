@@ -2,7 +2,7 @@
 var firstName = prompt("What's your first name? ")
 var lastName = prompt("What's your last name? ")
 var age = prompt("How old are you? ")
-var weight = prompt("How tall are you? (in centimeters)")
+var height = prompt("How tall are you? (in centimeters)")
 var petName = prompt("What's your pet's name?")
 
 // Main boolean test:
@@ -22,8 +22,8 @@ if (age > 20 && age < 30) { // se a idade estiver entre 21 e 29
     spy = false;
 }
 
-// weight:
-if (weight >= 170) { // se a altura for maior que 169 centímetros
+// height:
+if (height >= 170) { // se a altura for maior que 169 centímetros
     spy = true;
 } else {
     spy = false;
