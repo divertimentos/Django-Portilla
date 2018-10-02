@@ -14,9 +14,9 @@ if (condition) {
 
 // Else if Statement
 
-if (condition one) {
+if (condition_one) {
     // Execute some code
-} else if {
+} else if (condidion_two) {
     // Execute some other code
 } else {
     // Execute some backup code
