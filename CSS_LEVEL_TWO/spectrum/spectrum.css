@@ -1,0 +1,48 @@
+body{
+    --background-color: #203C40;
+    background-color: var(--background-color);
+}
+
+h1{
+    color: #D8DBE2;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.art{
+    margin:auto;
+}
+
+td{
+    border: 5px solid var(--background-color);
+    height: 500px;
+    width: 250px;
+    
+}
+
+
+#I{
+    background-color: #D8DBE2;
+    color: #1B1B1E;
+}
+
+#II{
+    background-color: #A9BCD0;
+    color: #1B1B1E;
+}
+
+#III{
+    background-color: #58A4B0;
+    color: #1B1B1E;
+}
+
+#IV{
+    background-color: #373F51;
+    color: #D8DBE2;
+
+}
+
+#V{
+    background-color: #1B1B1E;
+    color: #A9BCD0;
+}
