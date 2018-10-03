@@ -119,7 +119,23 @@ function luckySum(a, b, c) {
 // caught_speeding(65, true) → 0
 
 function caught_speeding(speed, is_birthday) {
-  //Code Goes Here
+  if (is_birthday === false) { // se não é seu aniversário
+    if (speed <= 60) {
+      return 0; // no ticket
+    } else if (speed >= 61 && speed <= 80) {
+      return 1; // small ticket
+    } else if (speed >= 81) {
+      return 2; // big ticket
+    }
+  } else if (is_birthday === true) { // se é seu aniversário
+    if (speed <= 60 + 5) {
+      return 0; // no ticket
+    } else if (speed >= 61 + 5 && speed <= 80 + 5) {
+      return 1; // small ticket
+    } else if (speed >= 81 + 5) {
+      return 2;
+    }
+  }
 }
 
 
