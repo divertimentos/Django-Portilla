@@ -153,5 +153,10 @@ function caught_speeding(speed, is_birthday) {
 // makeBricks(3, 2, 10) → true
 
 function makeBricks(small, big, goal) {
-  //Code Goes Here
+
+  if ((small * 1) + (big * 5) >= goal) {
+    return true;
+  } else {
+    return false;
+  }
 }
