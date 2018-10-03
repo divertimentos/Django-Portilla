@@ -70,7 +70,12 @@ function monkeyTrouble(aSmile, bSmile) {
 // stringTimes("Hi", 1) → "Hi"
 
 function stringTimes(str, n) {
-  //Code Goes Here
+  var insideString = "";
+  while (n > 0) {
+    insideString += str;
+    n--;
+  }
+  return insideString;
 }
 
 // PROBLEM 4: LUCKY SUM
