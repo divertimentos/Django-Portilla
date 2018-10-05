@@ -24,11 +24,7 @@
 // sleepIn(false, true) → true
 
 function sleepIn(weekday, vacation) {
-  if (weekday === false || vacation === true) {
-    return true;
-  } else {
-    return false;
-  }
+  return (!weekday || vacation)
 }
 
 //teste
