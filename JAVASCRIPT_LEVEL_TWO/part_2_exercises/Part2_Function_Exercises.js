@@ -27,8 +27,6 @@ function sleepIn(weekday, vacation) {
   return (!weekday || vacation)
 }
 
-//teste
-
 //
 // PROBLEM 2: MONKEY TROUBLE
 //
@@ -43,13 +41,7 @@ function sleepIn(weekday, vacation) {
 // monkeyTrouble(true, false) → false
 
 function monkeyTrouble(aSmile, bSmile) {
-  if (aSmile === true && bSmile === true) {
-    return true;
-  } else if (aSmile === false && bSmile === false) {
-    return true;
-  } else {
-    return true;
-  }
+  return (aSmile && bSmile) || (!aSmile && !bSmile)
 }
 
 
