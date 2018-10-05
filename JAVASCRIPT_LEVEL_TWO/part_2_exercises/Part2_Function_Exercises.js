@@ -107,24 +107,25 @@ function luckySum(a, b, c) {
 // caught_speeding(65, true) → 0
 
 function caught_speeding(speed, is_birthday) {
-  if (is_birthday === false) { // se não é seu aniversário
-    if (speed <= 60) {
-      return 0; // no ticket
-    } else if (speed >= 61 && speed <= 80) {
-      return 1; // small ticket
-    } else if (speed >= 81) {
-      return 2; // big ticket
-    }
-  } else if (is_birthday === true) { // se é seu aniversário
-    if (speed <= 60 + 5) {
-      return 0; // no ticket
-    } else if (speed >= 61 + 5 && speed <= 80 + 5) {
-      return 1; // small ticket
-    } else if (speed >= 81 + 5) {
-      return 2;
-    }
+  if (is_birthday) {
+    speed -= 5;
   }
+  if (speed <= 60) {
+    return 0; // no ticket
+  } else if (60 < speed <= 80) {
+    return 1; // small ticket
+  } else if (speed >= 81) {
+    return 2; // big ticket
+  }
+  // if (speed <= 60 + 5) {
+  //   return 0; // no ticket
+  // } else if (speed >= 61 + 5 && speed <= 80 + 5) {
+  //   return 1; // small ticket
+  // } else if (speed >= 81 + 5) {
+  //   return 2;
+  // }
 }
+
 
 
 // BONUS: MAKE BRICKS
@@ -142,9 +143,11 @@ function caught_speeding(speed, is_birthday) {
 
 function makeBricks(small, big, goal) {
 
-  if ((small * 1) + (big * 5) >= goal) {
-    return true;
-  } else {
-    return false;
-  }
+  // if ((small * 1) + (big * 5) >= goal) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+  return goal % 5 >= 0 && goal % 5 - small <= 0 && small + 5 * big >= goal;
+
 }
