@@ -42,9 +42,26 @@ function display() {
 
 var question = prompt("Would you like to start the roster web app? (y/n)")
 
-if (question[0] === "n") {
-    alert("você escolheu não")
-}
-
 // Now create a while loop that keeps asking for an action (add,remove, display or quit)
 // Use if and else if statements to execute the correct function for each command.
+
+if (question[0] === "n") {
+    alert("Thank u")
+} else {
+    while (true) {
+        var question = prompt("Please choose an action: add, remove, display or quit")
+
+        if (question[0] === "a") {
+            var name = prompt("Write a name:")
+            addNew(name);
+        } else if (question[0] === "r") {
+            var remove_name = prompt("Which name do you want to remove?")
+            remove(remove_name);
+        } else if (question[0] === "d") {
+            display();
+        } else if (question[0] === "q") {
+            alert("Namárië!")
+            break;
+        }
+    }
+}
