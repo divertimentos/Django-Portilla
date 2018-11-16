@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>First app</title>
+    <link rel="stylesheet" href={% static "css/mystyle.css" %}>
+    <title>Django Semicolon Page</title>
 </head>
 <body>
-    <h3>Index.html</h3>
-    
-    {{ insert_me }}
+    <h3>Hi, this is a picture of a semicolon:</h3>
+
+    <img src="{% static "images/semicolon.jpg" %}" alt="Image didn't load">
+
 </body>
 </html>
