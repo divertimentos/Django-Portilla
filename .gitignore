@@ -1,0 +1,3 @@
+# Git Ignore para o django-portilla
+
+*.pyc
