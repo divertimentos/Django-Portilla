@@ -1,3 +1,19 @@
 # Git Ignore para o django-portilla
 
 *.pyc
+~*
+*.pyo
+.idea/
+media/
+^temp*
+temp.csv
+temp1.csv
+temp2.csv
+Temp*
+celerybeat-schedule
+*.vscode
+static/
+.DS_Store
+/db/*.sqlite3
+db.sqlite3
+*.db
