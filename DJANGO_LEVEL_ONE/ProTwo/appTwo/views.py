@@ -1,11 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from appTwo.models import User
 
 
 def index(request):
-    return HttpResponse("My second project (HELLO WORLD from AppTwo!)")
+    return render(request, 'appTwo/index.html')
 
 
-def help(request):
-    helpdict = {'help_insert': 'Help page!'}
-    return render(request, 'appTwo/help.html', context=helpdict)
+def users(request):
+    user_list = User.objects.order_by('first_name')
+    user_dict = {'users': user_list}
+    return render(request, 'appTwo/users.html', context=user_dict)
