@@ -1,4 +1,4 @@
-# django-portilla
+# Python and Django Full Stack Web Developer Bootcamp
 
 Este é o README referente ao curso **Python and Django Full Stack Web Developer Bootcamp**, disponibilizado na Udemy pelo prof. Jose Portilla. Clique [aqui](https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/) para comprá-lo/acessá-lo.
 
@@ -29,9 +29,10 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 * [JavaScript Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/JS/JAVASCRIPT_LEVEL_ONE)
 * [JavaScript Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/JS/JAVASCRIPT_LEVEL_TWO)
 
-
-
 # DOM
+
+* [Dom Part 1](https://github.com/guiemi-learning-center/django-portilla/tree/master/DOM/Part_1)
+* [Dom Part 2](https://github.com/guiemi-learning-center/django-portilla/tree/master/DOM/Part_2)
 
 # jQuery
 
