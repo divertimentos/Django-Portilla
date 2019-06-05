@@ -8,7 +8,7 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 
 ## HTML
 
-* [HTML Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/HTML_LEVEL_ONE)
+* [HTML Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/HTML/HTML_LEVEL_ONE)
 * [HTML Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/HTML_LEVEL_TWO)
 
 # CSS
