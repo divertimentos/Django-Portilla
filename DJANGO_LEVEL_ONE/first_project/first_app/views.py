@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from first_app.models import Topic, Webpage, AccessRecord
+from models import Topic, Webpage, AccessRecord
 
 
 def index(request):
