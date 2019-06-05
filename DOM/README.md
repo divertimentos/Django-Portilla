@@ -4,7 +4,7 @@
 
 ### Interação com texto e/ou com tags HTML
 
-* Pegar tudo que está na tag <p>:
+* Pegar tudo que está na tag &ltp&gt:
   * `var p = document.querySelector('p')`
 * Pegar apenas o texto dentro de <p>:
   *  `p.textContent`
