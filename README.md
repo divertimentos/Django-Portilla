@@ -9,16 +9,16 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 ## HTML
 
 * [HTML Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/HTML/HTML_LEVEL_ONE)
-* [HTML Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/HTML_LEVEL_TWO)
+* [HTML Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/HTML/HTML_LEVEL_TWO)
 
 # CSS
 
-* [CSS Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/CSS_LEVEL_ONE)
-* [CSS Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/CSS_LEVEL_TWO)
+* [CSS Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/CSS/CSS_LEVEL_ONE)
+* [CSS Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/CSS/CSS_LEVEL_TWO)
 
 # Bootstrap
 
-* [Bootstrap Part 1: Overview](https://github.com/guiemi-learning-center/django-portilla/blob/master/BOOTSTRAP_OVERVIEW/project.html)
+* [Bootstrap Part 1: Overview](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap%20Overview)
 * [Bootstrap Part 2: Forms](https://github.com/guiemi-learning-center/django-portilla/tree/master/BOOTSTRAP_OVERVIEW/Bootstrap_Part_Two_Forms)
 * [Bootstrap Part 3: Navbars](https://github.com/guiemi-learning-center/django-portilla/tree/master/BOOTSTRAP_OVERVIEW/Bootstrap_Part_Three_Navbars)
 * [Bootstrap Part 4: Grids](https://github.com/guiemi-learning-center/django-portilla/tree/master/BOOTSTRAP_OVERVIEW/Bootstrap_Part_Four_Grids)
