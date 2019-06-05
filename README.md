@@ -26,6 +26,9 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 
 # JavaScript
 
+* [JavaScript Level One](https://github.com/guiemi-learning-center/django-portilla/tree/master/JS/JAVASCRIPT_LEVEL_ONE)
+* [JavaScript Level Two](https://github.com/guiemi-learning-center/django-portilla/tree/master/JS/JAVASCRIPT_LEVEL_TWO)
+
 
 
 # DOM
