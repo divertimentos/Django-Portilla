@@ -24,3 +24,17 @@
 * Setando um novo atributo:
   * `specialA.setAttribute("href", "https://www.amazon.com.br")`
 
+
+
+# Document Object Model Part 3: Events
+
+Usando JavaScript para disparar eventos.
+
+Nesta aula nós aprendemos a usar o `addEventListener()` para captar interações e modificar conteúdos a partir delas, usando:
+
+* Hover do ponteiro: `mouseover` e `mouseout`
+* Clique simples: `click`
+* Clique duplo: `dblclick`
+
+Eu aproveitei e usei um `if(){}` / `else(){}` para habilitar toggles no clique e no duplo-clique.
+
