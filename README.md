@@ -18,10 +18,11 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 
 # Bootstrap
 
-* [Bootstrap Part 1: Overview](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap%20Overview)
-* [Bootstrap Part 2: Forms](https://github.com/guiemi-learning-center/django-portilla/tree/master/BOOTSTRAP_OVERVIEW/Bootstrap_Part_Two_Forms)
-* [Bootstrap Part 3: Navbars](https://github.com/guiemi-learning-center/django-portilla/tree/master/BOOTSTRAP_OVERVIEW/Bootstrap_Part_Three_Navbars)
-* [Bootstrap Part 4: Grids](https://github.com/guiemi-learning-center/django-portilla/tree/master/BOOTSTRAP_OVERVIEW/Bootstrap_Part_Four_Grids)
+* [Bootstrap Part 1: Overview](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap)
+* [Bootstrap Part 2: Forms](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap/Bootstrap_Part_Two_Forms)
+* [Bootstrap Part 3: Navbars](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap/Bootstrap_Part_Three_Navbars)
+* [Bootstrap Part 4: Grids](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap/Bootstrap_Part_Four_Grids)
+* [Bootstrap Project](https://github.com/guiemi-learning-center/django-portilla/tree/master/Bootstrap/Bootstrap_Project)
 
 # JavaScript
 
