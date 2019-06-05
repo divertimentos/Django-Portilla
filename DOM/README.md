@@ -4,13 +4,13 @@
 
 ### Interação com texto e/ou com tags HTML
 
-* Pegar tudo que está na tag &ltp&gt:
+* Pegar tudo que está na tag &lt;p&gt;:
   * `var p = document.querySelector('p')`
-* Pegar apenas o texto dentro de <p>:
+* Pegar apenas o texto dentro de &lt;p&gt;:
   *  `p.textContent`
     * Nisso, você pode modificar o conteúdo de texto atribuindo algum texto a essa query:
       *  `p.textContent = "Olá, mundão véio sem porteira." `
-  * Entretanto, se você quiser modificar o estilo do texto utilizando tags do HTML, como por exemplo a <strong></strong>, você precisa pegar o HTML em vez do texto:
+  * Entretanto, se você quiser modificar o estilo do texto utilizando tags do HTML, como por exemplo a &lt;strong&gt;&lt;/strong&gt;, você precisa pegar o HTML em vez do texto:
     * `p.innerHTML = "<strong> Olá, mundão véio sem porteira </strong>"`
 
 ### Get Attributes & Set Attributes
