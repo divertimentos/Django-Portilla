@@ -43,5 +43,5 @@ Eu aproveitei e usei um `if(){}` / `else(){}` para habilitar toggles no clique e
 * Cria-se uma função que passa um loop por todas as células, limpando seus textContent
 * Cria-se uma função que alterna entre escrever "X", "O" e "" quando o usuário clica em cada célula do tabuleiro do Jogo da Velha
 
-![](C:\Users\guilherme\Documents\GitHub\django-portilla\DOM\media\tictactoe.PNG)
+![tictactoe](https://github.com/guiemi-learning-center/django-portilla/blob/master/DOM/assets/tictactoe.png)
 
