@@ -25,6 +25,10 @@ function changeMarker(){
 }
 
 // For loop to add event listeners to all the squares
-for (let i = 0; i < squares.length; i++) {
-    squares[i].addEventListener("click", changeMarker)
-}
+// for (let i = 0; i < squares.length; i++) {
+//     squares[i].addEventListener("click", changeMarker)
+// }
+
+squares.forEach(function(elem){
+    elem.addEventListener("click", changeMarker)
+})
