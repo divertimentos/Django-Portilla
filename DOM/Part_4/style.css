@@ -1,17 +1,7 @@
-.table {
-    width: 50%;
-    padding-bottom: 30%;
-    background-color: #e9ecef;
-}
-
-#firstRow {
-    background-color: cornflowerblue;
-}
-
-#secondRow {
-    background-color: aquamarine;
-}
-
-#thirdRow {
-    background-color: cadetblue;
-}
+td {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 75px;
+} 

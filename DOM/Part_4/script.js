@@ -1,15 +1,30 @@
-/* var tableLevel = document.querySelector(".table")
-var bodyLevel = tableLevel.querySelector("#tableBody")
-var rowLevel = bodyLevel.querySelector(".rowOne")
+// Restart Game Button
+var restart = document.querySelector("#b")
 
-rowLevel.addEventListener('mouseover', function(){
-    this.style.color = "red"
-})
- */
+//  Grabs all the squares
+var squares = document.querySelectorAll("td")
 
-var firstRow = document.querySelectorAll(".table")
+// Clear all the squares
+function clearBoard() {
+    for (let i = 0; i < squares.length; i++) {
+        squares[i].textContent = ""
+    }
+}
 
+restart.addEventListener('click', clearBoard)
 
-firstRow.addEventListener('mouseover', function(){
-    firstRow.style.color = "red"
-})
+// Check the square marker
+function changeMarker(){
+    if(this.textContent === ""){
+        this.textContent = "X"
+    }else if(this.textContent === "X"){
+        this.textContent = "O"
+    }else {
+        this.textContent = ""
+    }
+}
+
+// For loop to add event listeners to all the squares
+for (let i = 0; i < squares.length; i++) {
+    squares[i].addEventListener("click", changeMarker)
+}
