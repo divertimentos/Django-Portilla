@@ -26,7 +26,7 @@
 
 
 
-# Document Object Model Part 3: Events
+## Document Object Model Part 3: Events
 
 Usando JavaScript para disparar eventos.
 
@@ -38,3 +38,6 @@ Nesta aula nós aprendemos a usar o `addEventListener()` para captar interaçõe
 
 Eu aproveitei e usei um `if(){}` / `else(){}` para habilitar toggles no clique e no duplo-clique.
 
+## Document Object Model Part 4: Tic Tac Toe
+
+* Cria-se
