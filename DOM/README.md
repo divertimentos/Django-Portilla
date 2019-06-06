@@ -40,4 +40,8 @@ Eu aproveitei e usei um `if(){}` / `else(){}` para habilitar toggles no clique e
 
 ## Document Object Model Part 4: Tic Tac Toe
 
-* Cria-se
+* Cria-se uma função que passa um loop por todas as células, limpando seus textContent
+* Cria-se uma função que alterna entre escrever "X", "O" e "" quando o usuário clica em cada célula do tabuleiro do Jogo da Velha
+
+![](C:\Users\guilherme\Documents\GitHub\django-portilla\DOM\media\tictactoe.PNG)
+
