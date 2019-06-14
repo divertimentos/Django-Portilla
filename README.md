@@ -36,7 +36,8 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 
 # jQuery
 
-* jQuery Introduction
+* [jQuery Introduction](https://github.com/guiemi-learning-center/django-portilla/tree/master/jQuery#jquery-introduction)
+* [jQuery Part One Basics](https://github.com/guiemi-learning-center/django-portilla/tree/master/jQuery#jquery-part-one-basics)
 
 ***
 
