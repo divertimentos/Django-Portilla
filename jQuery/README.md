@@ -1,6 +1,8 @@
 # Seção 12: jQuery
 
-# Principais diferenças entre o JavaScript Vanilla e o jQuery
+# JQuery Introduction
+
+## Principais diferenças entre o JavaScript Vanilla e o jQuery
 
 ```javascript
 // jQuery:
@@ -32,3 +34,4 @@ function ready(fn){
 }
 ```
 
+# jQuery Part One Basics

@@ -36,7 +36,7 @@ Este é o README referente ao curso **Python and Django Full Stack Web Developer
 
 # jQuery
 
-
+* jQuery Introduction
 
 ***
 
